@@ -1,4 +1,4 @@
-'''
+
 #Comparison operators
 
 x = 5
@@ -70,7 +70,7 @@ print("if x is",x, "then 2 digit right shift of x will be", x>>2)
 
 print("if x is",x, "then n 2 digit left shif of x will be",x<<2)
 
-'''
+
 
 #Identity operators
 x = 8
