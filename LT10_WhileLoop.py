@@ -1,4 +1,4 @@
-x=[1,2,10,2,3,4,5]
+x=[1,2,10,18,3,4]
 
 #while
 
@@ -17,7 +17,7 @@ while i<=len(x)-1:
         break
     print(x[i])
     i+=1
-print('break')
+print('Once i became 2, the value of x[2] became 10. Hence, the if statement executed and brock the loop.')
 
 #continue
 
@@ -25,14 +25,14 @@ i=0
 
 while i<=len(x)-1:
     if i==3:
-        i=7
+        i=4
         continue
     print(x[i])
     i+=1
-print('continue')
+print('Once i became 3, if statement executed and assign new value of i as 4 and then continued. Hence, it ignored printing x[4] (which is 18) and move to the next iteration of loop.')
 
 
-###pass
+#pass
 
 i=0
 
@@ -41,7 +41,7 @@ while i<=len(x)-1:
         pass
     print(x[i])
     i+=1
-print('pass')
+print('Once i became 2, the value of x[2] became 10. Hence, the if statement executed which is doing nothing rather than just pass the if statement.')
 
 #Try & Except
 
